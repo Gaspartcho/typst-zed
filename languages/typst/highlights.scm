@@ -93,14 +93,14 @@
     ">"
   ] @operator)
 
+; VALUE
+(ident) @variable
+
 (tagged
   field: (ident) @variable.parameter)
 
 (field
   field: (_) @property)
-
-; VALUE
-(ident) @variable
 
 (call
   item: (ident) @function)
